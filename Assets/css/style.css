@@ -1,0 +1,62 @@
+* {
+  background-color: gray;
+}
+
+
+body {
+  width: 100%;
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 20px;
+}
+
+header,
+footer {
+  border-radius: 5px;
+  padding: 10px;
+
+  border: 2px solid rgb(79, 185, 227);
+}
+
+aside {
+  border-right: 1px solid #999;
+}
+
+section {
+  display: flex;
+}
+
+article {
+
+}
+
+p {
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  display: flex;
+}
+
+header {
+  text-decoration: underline;
+
+}
+
+nav {
+  display: flex;
+  margin: 1px;
+  text-align: center;
+}
