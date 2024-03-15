@@ -1,6 +1,26 @@
 * {
-  background-color: gray;
+  margin: 0;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  background-color: #ffffff;
+  color: black;
+  box-shadow: blue;
+  text-decoration: underline;
+}
+
+h1 {
+  background-color: #999;
+}
+
+nav ul {
+  display: flex
+}
+
 
 
 body {
@@ -31,14 +51,6 @@ section {
   display: flex;
 }
 
-article {
-
-}
-
-p {
-
-}
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -50,13 +62,42 @@ li {
   display: flex;
 }
 
-header {
-  text-decoration: underline;
 
+
+.profile {
+  float: left;
+  margin: 5px;
+  height: 100px;
+  width: 100px;
 }
 
-nav {
+p {
+  text-align: justify;
+}
+
+.mainworks {
+  float: left;
+  margin: 5px;
+  height: 400px;
+  width: 1000px;
   display: flex;
-  margin: 1px;
-  text-align: center;
+  flex-wrap: wrap;
 }
+
+
+
+.subworks {
+  float: left;
+  margin: 5px;
+  height: 200px;
+  width: 300px;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+img :hover {
+  -moz-box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.3);
+  -webkit-box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.3);
+  box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.3);
+}
+
