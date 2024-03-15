@@ -7,9 +7,8 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1%;
-  background-color: #ffffff;
+  background-color: black;
   color: black;
-  box-shadow: blue;
   text-decoration: underline;
 }
 
@@ -35,13 +34,13 @@ body {
   gap: 20px;
 }
 
-header,
 footer {
   border-radius: 5px;
   padding: 10px;
-
-  background-color: white
+  background-color: #160000;
 }
+
+
 
 aside {
   border-right: 1px solid #999;
@@ -106,3 +105,65 @@ a:hover {
   color: #160000;
 }
 
+@media screen and (max-width: 576px) {
+  .mainworks {
+    background-color: red
+  }
+  .placeholders {
+    background-color: red
+  }
+  .profile {
+    background-color: red
+  }
+  header {
+    background-color: red;
+  }
+  footer {
+    background-color: red;
+  }
+  nav {
+    background-color: red;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mainworks {
+    background-color: red
+  }
+  .placeholders {
+    background-color: red
+  }
+  .profile {
+    background-color: red
+  }
+  header {
+    background-color: red;
+  }
+  footer {
+    background-color: red;
+  }
+  nav {
+    background-color: red;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .mainworks {
+    background-color: red
+  }
+  .placeholders {
+    background-color: red
+  }
+  .profile {
+    background-color: red
+  }
+  header {
+    background-color: red;
+  }
+  footer {
+    background-color: red;
+  }
+  nav {
+    background-color: red;
+  }
+}
